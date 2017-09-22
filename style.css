@@ -1,0 +1,64 @@
+#center {
+    width: 50vw;
+    height: 60vh;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    bottom: 0px;
+    margin:auto;
+}
+
+#ctop {
+    height: 70%;
+    width: 100%;
+}
+/* overflow cuts it off and allows for scrolling*/
+
+#ctopleft {
+    height:100%;
+    width:30%;
+    display:inline-block;
+    margin-right:20px;
+}
+
+#ctopright {
+    height:100%;
+    width:60%;
+    display:inline-block;
+    overflow:auto;
+    border-left: 3px solid rgba(120, 120, 120,0.5);
+    padding-left:20px;
+    margin-left:10px;
+    padding-right:10px;
+    background-color: rgba(255,255,255,0.5);
+    
+}
+
+#ctopbot {
+    width:100%;
+    height:30%;
+}
+#bigImg {
+    height: 100%;
+}
+
+.thumbs {
+    height: 70px;
+    padding:5px;
+    width: auto;
+}
+
+#background {
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    left:0;
+    top:0;
+    background-image:url(DSCF16x9.JPG);
+    background-size:cover;
+}
+#ctoptitle, #ctoppara {
+    color:rgb(70,70,70);
+    text-align:center;
+}
